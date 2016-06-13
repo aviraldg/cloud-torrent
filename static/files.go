@@ -24,7 +24,7 @@
 // files/js/omni-controller.js
 // files/js/run.js
 // files/js/semantic-checkbox.js
-// files/js/torrents-controller.js
+// files/js/fluffle-controller.js
 // files/js/utils.js
 // files/js/vendor/angular.min.js
 // files/js/vendor/moment.min.js
@@ -1015,4 +1015,3 @@ func _filePath(dir, name string) string {
 	cannonicalName := strings.Replace(name, "\\", "/", -1)
 	return filepath.Join(append([]string{dir}, strings.Split(cannonicalName, "/")...)...)
 }
-
